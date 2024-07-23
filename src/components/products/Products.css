@@ -12,9 +12,10 @@
     auto-fit,
     minmax(
       300px,
-      1fr
+      .6fr
     )
   );
+  justify-content: center;
   gap: 2rem;
 }
 
@@ -46,4 +47,9 @@
   display: block;
   object-fit: cover;
   background: #f7f7f7;
+}
+
+.products div {
+  display: flex;
+  justify-content: center;
 }

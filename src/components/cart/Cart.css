@@ -16,6 +16,11 @@
 .cart li {
   border-bottom: 1px solid #444;
   padding-bottom: 16px;
+  color: aliceblue;
+}
+
+.cart li div {
+  margin: 2px 0 10px;
 }
 
 .cart footer {
@@ -23,10 +28,15 @@
   gap: 8px;
   justify-content: center;
   align-items: center;
+  color: aliceblue;
 }
 
 .cart footer button {
-  padding: 8px;
+  padding: 3px;
+  width: 35px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
 }
 
 .cart-button {

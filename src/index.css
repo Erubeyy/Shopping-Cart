@@ -31,6 +31,7 @@ body {
 }
 
 button {
+  display: flex;
   border-radius: 8px;
   border: 2px solid transparent;
   padding: 0.1em 1.0em;
